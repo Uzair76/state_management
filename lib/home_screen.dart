@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Timer.periodic(Duration(seconds: 1), (timer) {
       count++;
       print(count);
-      
+
       setState(() {
 
       });
@@ -37,6 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          // khan swati
           // Text(DateTime.now().hour.toString()
           //     +':'+DateTime.now().minute.toString()
           //     +':'+DateTime.now().second.toString(),style: TextStyle(
