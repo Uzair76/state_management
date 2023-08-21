@@ -18,6 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     Timer.periodic(Duration(seconds: 1), (timer) {
       count++;
+      print(count);
+      
       setState(() {
 
       });
